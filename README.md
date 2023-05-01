@@ -1,70 +1,190 @@
-# Getting Started with Create React App
+<a id="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+    <br>
+  <h1 style="font-size: 35px; color: lightblue"><b>React-Todo-App</b></h1>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents <a id="table-of-contents"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [� Table of Contents](#table-of-contents)
+- [📖 React-Todo-App ](#about-project)
+- [🛠 Built With ](#built-with)
+  - [Tech Stack ](#tech-stack)
+  - [Key Features ](#key-features)
+- [🚀 Live Demo ](#live-demo)
+- [💻 Getting Started ](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
+- [👥 Authors ](#authors)
+- [🔭 Future Features ](#future-features)
+- [🤝 Contributing ](#contributing)
+- [⭐️ Show your support ](#️support)
+- [🙏 Acknowledgments ](#acknowledgements)
+- [❓ FAQ (OPTIONAL) ](#faq)
+- [📝 License ](#license)
 
-### `npm test`
+<br>
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 React-Todo-App <a id="about-project"></a>
 
-### `npm run build`
+**React-Todo-App** is a website with a todo list functionalities which includes, users having the ability to add a task, edit a task and delete a task.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Add future task to complete.
+- Checkout already completed tasks.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a id="built-with"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a id="tech-stack"></a>
 
-### `npm run eject`
+<details>
+  <summary>Technology</summary>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
+    </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Tools</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com/">VSCode</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://reactjs.org">React.js</a></li>
+  </ul>
+</details>
+<br/>
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a id="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Users have the ability to add a task, edit and delete**
+- **Users have the ability to strike through tasks when completed**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- LIVE DEMO -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Live Demo <a id="live-demo"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- An implementation of this portfolio will be live on [Github Pages](https://skabeo.github.io/reaact-todo-app/) (to be updated)
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a id="getting-started"></a>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites
 
-### Making a Progressive Web App
+In order to reproduce the react-todo-app and be able to make changes for your own purpose you need the following tools:
+  - Visual Studio Code
+  - <a href="https://git-scm.com/">git-scm</a>
+  - A Github account
+  - NodeJS (which also includes npm package manager)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
 
-### Advanced Configuration
+  1. Make a new directory and go inside the directory using cd command in terminal
+  2. Use "git" to clone this repository into your local drive:
+      >```$ git clone https://github.com/skabeo/react-todo-app```
+  3. Run the command to install all necessary dependancies:
+      >``` npm install ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
+
+  - Feel free to experiment with the project.
+  - To build the project: 
+    >``` npm run build ```
+  - The `index.html` file in `public` folder is the output file that you want to open in the browser.
+  - To add tests or examine different tests that are alreadt available go to:
+    >``` [root_dir]/src/modules/[modulename].test.js ```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project by opening a new github repo and initialize the local git repo and connect it through: ```$ git remote add origin main [your github repo link]``` command.
+Then you can push the project into that repository and if you go to the repository in your account, you'll see the code in the account.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- AUTHOR -->
+
+## 👥 Author <a id="authors"></a>
+
+
+👤 **Spencer Okyere**
+
+- GitHub: [@skabeo](https://github.com/skabeo)
+- Twitter: [@black_okyere](https://twitter.com/black_okyere)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okyere-spencer-9b602623b)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a id="future-features"></a>
+
+- A functional and well documented navlinks.
+- A timestamps for all tasks.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a id="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/skabeo/react-todo-app/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a id="support"></a>
+
+If you like this project consider giving a star to the project and if you want to go furthur make a donation to any one the top 8 charities in Hawaii islands at the link below:
+
+-   [Hawaii Donation](https://www.hawaii-guide.com/the-top-8-charities-you-should-donate-to-in-hawaii)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
+
+- I would like to thank [Ibas Majeed](https://twitter.com/ibaslogic) for putting together a well documented article for the todo-list application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a id="faq"></a>
+
+- **Is mobile first web design a necessity these days?**
+
+  - Since 2014 mobile web users have surpassed desktop users and the rate of the new users being introduced to web by mobile devices will only increase by time.
+- **Does the project support all platforms?**
+  - Yes! Since it is based on web technology, any device that has a web browser will be able to see the website once it is online.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a id="license"></a>
+
+This project is [MIT](https://github.com/skabeo/react-todo-app/blob/develop/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
