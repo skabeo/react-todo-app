@@ -185,6 +185,6 @@ If you like this project consider giving a star to the project and if you want t
 
 ## 📝 License <a id="license"></a>
 
-This project is [MIT](https://github.com/skabeo/react-todo-app/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/skabeo/react-todo-app/blob/feature/todo-app/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
