@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-- An implementation of this portfolio will be live on [Github Pages](https://skabeo.github.io/reaact-todo-app/) (to be updated)
+- Preview link would be up soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
