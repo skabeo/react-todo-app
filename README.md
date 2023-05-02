@@ -28,7 +28,7 @@
 - [🤝 Contributing ](#contributing)
 - [⭐️ Show your support ](#️support)
 - [🙏 Acknowledgments ](#acknowledgements)
-- [❓ FAQ (OPTIONAL) ](#faq)
+- [❓ FAQ ](#faq)
 - [📝 License ](#license)
 
 <br>
