@@ -9,11 +9,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<TodoApp />} />
-        <Route path='about' element={<About />} />
+        <Route path="/" element={<TodoApp />} />
+        <Route path="about" element={<About />} />
       </Routes>
     </>
-    
+
   );
 }
 
